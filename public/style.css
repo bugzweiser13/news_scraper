@@ -42,7 +42,7 @@ nav {
 
 #articles {
     overflow: auto;
-    max-height: 800px;
+    max-height: 700px;
 }
 
 #savedArticleBtn,
