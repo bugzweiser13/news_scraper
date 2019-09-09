@@ -1,0 +1,105 @@
+body {
+    /* background-color: lightblue; */
+    background: url(/img/bg3.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+h1,
+h4 {
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 0px 5px 10px black;
+}
+
+h5 {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    text-shadow: 0px 5px 10px black;
+}
+
+nav {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    text-shadow: 0px 5px 10px black;
+}
+
+#display {
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0px 5px 15px black;
+}
+
+#articlesHeader {
+    font-family: 'Jura', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 0px 5px 10px black;
+    background: rgb(0, 123, 255);
+    border-bottom: 2px solid black;
+    /* background: rgb(53, 104, 187); */
+}
+
+#articles {
+    overflow: auto;
+    max-height: 800px;
+}
+
+#savedArticleBtn,
+#deleteBtn {
+    float: right;
+}
+
+p {
+    font-weight: bolder;
+}
+
+#click {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.noteHeader {
+    color: black;
+    font-size: 150%;
+    padding-left: 45px;
+}
+
+#notes {
+    display: none;
+    border: 1px solid black;
+    background: rgba(211, 211, 211, 0.424);
+    padding: 2px;
+    float: right;
+    width: 50%;
+}
+
+textarea,
+input {
+    /* display: block; */
+    width: 90%;
+    background-color: white;
+    /* margin: 20px; */
+}
+
+input {
+    height: 36px;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+}
+
+
+/* button {
+    margin: 10px;
+} */
+
+
+/* 
+.headerInfo {
+    padding-left: 60px;
+} */
+
+
+/* .noteHeader {
+    font-size: 150%;
+    padding-left: 45px;
+} */
